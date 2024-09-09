@@ -1,0 +1,38 @@
+/* *{
+    overflow: hidden;
+} */
+
+#cartCard{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    height: 60vh;
+    width: 40vw;
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+} 
+
+#cartIcon{
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 55%;
+}
+
+#item{
+    background-color: white;
+    border: red 2px solid;
+}
+
+#remove{
+    border: blue 2px solid;
+}
+
+.remove{
+    height: 10px;
+    width: 10px;
+}

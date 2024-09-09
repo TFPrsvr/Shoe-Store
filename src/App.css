@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  color: black;
+}
+
+
+@media (max-width: 1440px) {
+  #app {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+/* *{
+    overflow: hidden;
+    display: flex;
+}  */
+
+.navBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+   
+}
+
+.menuIcon,
+#menuIcon{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+#sneakers{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    place-content: flex-start;
+}
+
+#empty{
+    background-color: white;
+}
+
+.navCart{
+    background-color: white;
+}
+
+.navProfile{
+    background-color: white;
+}
